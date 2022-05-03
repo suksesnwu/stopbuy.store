@@ -8,13 +8,13 @@ function Header() {
     <div className='header'>
         <img className='header_logo' src="https://www.pngarts.com/files/3/Yellow-Add-To-Cart-Button-PNG-Image-Background.png"/>
         <div className='header_search'>
-        <input className='header_searchInput' placeholder='Search Stopbuy' />
-        <SearchIcon className="header_searchIcon" />
-    </div>
+            <input className='header_searchInput' placeholder='Search Stopbuy' />
+            <SearchIcon className="header_searchIcon" />
+        </div>
 
-    <div className='header_nav'>
+        <div className='header_nav'>
         <div className='header_option'>
-            <span className='header_optionLineOn'>
+            <span className='header_optionLineOne'>
                 Hello Guest
             </span>
             <span className='header_optionLineTwo'>
@@ -23,7 +23,7 @@ function Header() {
         </div>
 
         <div className='header_option'>
-            <span className='header_optionLineOn'>
+            <span className='header_optionLineOne'>
                 Returns
             </span>
             <span className='header_optionLineTwo'>
@@ -32,7 +32,7 @@ function Header() {
         </div>
 
         <div className='header_option'>
-            <span className='header_optionLineOn'>
+            <span className='header_optionLineOne'>
                 Your
             </span>
             <span className='header_optionLineTwo'>
@@ -46,6 +46,8 @@ function Header() {
         </div>
 
     </div>
+
+    
     </div>
 
     

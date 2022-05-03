@@ -1,5 +1,5 @@
 import React from 'react';
-import './Product.css'
+import './Product.css';
 
 function Product({ title, image, price, rating}) {
   return (
@@ -13,14 +13,13 @@ function Product({ title, image, price, rating}) {
 
             <div className='product_rating'>
                 {Array(rating).fill().map((_, i) => (
-                    <p>⭐️ </p>
+                    <p>⭐️</p>
                 ))}
             </div>
-
-            <img className='product_img' src={image} alt='' />
+        </div>
+        <img className='product_img' src={image} alt='' />
 
             <button className='product_button'>Add to Basket</button>
-        </div>
     </div>
   )
 }
