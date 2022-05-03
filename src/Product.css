@@ -13,10 +13,10 @@
 }
 
 .product_rating {
-    
+    display: flex;
 }
 
-.product_img {
+.product > img {
     max-height: 200px;
     width: 100%;
     object-fit: contain;
@@ -32,7 +32,7 @@
     margin-bottom: 15px;
 }
 
-.product_button {
+.product > button {
     background: #f0c14d;
     border: 1px solid;
     margin-top: 10px;
